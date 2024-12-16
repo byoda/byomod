@@ -1,3 +1,8 @@
+.vscode/
+
+# Here we store credentials, API keys, etc.
+.secrets/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
