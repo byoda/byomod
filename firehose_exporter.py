@@ -5,9 +5,9 @@ import asyncio
 from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
 
-from byomod.lib.firehose import Firehose
+from byomod.dataclasses.firehose import Firehose
 
-from byomod.lib.counters import ANNOTATION_SEPARATOR
+from byomod.dataclasses.counters import ANNOTATION_SEPARATOR
 
 APP: FastAPI = FastAPI()
 FIREHOSE: Firehose = Firehose()

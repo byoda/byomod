@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from byomod.lib.counters import BSkyCounter
+from byomod.dataclasses.counters import BSkyCounter
 
 
 def test_bskycounter() -> None:

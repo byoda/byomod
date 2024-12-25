@@ -4,7 +4,7 @@ import asyncio
 
 from fastapi import FastAPI
 
-from byomod.lib.firehose import Firehose
+from byomod.dataclasses.firehose import Firehose
 
 APP: FastAPI = FastAPI()
 FIREHOSE: Firehose = Firehose()
