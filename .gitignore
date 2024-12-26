@@ -1,4 +1,4 @@
-.vscode/
+# .vscode/
 
 # Here we store credentials, API keys, etc.
 .secrets/

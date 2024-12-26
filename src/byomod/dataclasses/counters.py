@@ -22,7 +22,8 @@ class BSkyCounter:
         )[:k]
 
         if reset_incremental_access:
-            for annotation in self._count_since_last_access.keys():
+            target_keys: list[str] = list(self._count_since_last_access.keys())
+            for annotation in target_keys:
                 self._count_since_last_access[annotation] = 0
 
         # We want actual counts instead of incremental counts
