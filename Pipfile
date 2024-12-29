@@ -7,9 +7,7 @@ name = "pypi"
 atproto = "*"
 httpx = "*"
 orjson = "*"
-numpy = "*"
 opentelemetry-sdk = "*"
-opentelemetry-exporter-prometheus = "*"
 fastapi = {extras = ["standard"], version = "*"}
 pytest = "*"
 
