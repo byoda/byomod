@@ -170,7 +170,7 @@ class Firehose:
                     tags.append(feature.tag)
                 elif isinstance(feature, Facet.Mention):
                     mentions.append(feature.did)
-            if False and uris and tags:
+            if DEBUG and uris and tags:
                 print()
                 print(f'Languages: {', '.join(record.langs or [])}')
                 if external_card:
